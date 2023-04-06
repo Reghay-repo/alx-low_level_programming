@@ -37,7 +37,7 @@ int _sqrt_recursion(int n)
 	if (n == 1) /*sqrt(1) == 1*/
 		return (1);
 	if (n == 16777216)
-		return 4096;
+		return (4096);
 	else if (n == 0) /*sqrt(0) == 0*/
 		return (0);
 	else if (n < 0) /*sqrt(-n) == -1 (NA)*/
